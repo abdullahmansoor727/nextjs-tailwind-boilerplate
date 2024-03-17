@@ -16,7 +16,7 @@
 
 ### Theme
 
-Default theme set to dark - Check the html tag in `@/src/app/layout.tsx`, if the className is dark, dark mode css variables are used
+Default theme is set to dark - Check the html tag in `@/src/app/layout.tsx`, if the className is dark, dark mode css variables are used
 
 CSS variables are to be set it `@/src/app/global.css`
 
@@ -29,7 +29,7 @@ The following variables have been set by default for both `light` and `dark` mod
 
 Default font for heading is `Cal Sans` installed as a package
 
-Default font for body text is `Plus Jakarta Sans`, importing from Google Fonts using `next/font/google`
+Default font for body text is `Plus Jakarta Sans`, imported from Google Fonts using `next/font/google`
 
 =================================================================
 
@@ -55,7 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Jakarta Sans, a custom Google Font.
 
 ## Learn More
 
