@@ -20,7 +20,7 @@ Default theme is set to dark - Check the html tag in `@/src/app/layout.tsx`, if 
 
 CSS variables are to be set it `@/src/app/global.css`
 
-The following variables have been set by default for both `light` and `dark` mode
+The following variables have been set by default for both `light` and `dark` mode. The values are set in HSL to allow opacity modifiers support
 
 1. `foreground`
 2. `background`

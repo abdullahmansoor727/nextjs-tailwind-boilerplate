@@ -4,13 +4,13 @@
 
 @layer base {
   :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-rgb: 214, 219, 220;
+    --foreground-hsl: 0, 0%, 0%;
+    --background-hsl: 192, 16%, 85%;
   }
 
   .dark {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 0, 0, 0;
+    --foreground-hsl: 0, 0%, 100%;
+    --background-hsl: 0, 0%, 0%;
   }
 }
 

@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "rgb(var(--background-rgb))",
-        foreground: "rgb(var(--foreground-rgb))",
+        background: "hsl(var(--background-hsl))",
+        foreground: "hsl(var(--foreground-hsl))",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
