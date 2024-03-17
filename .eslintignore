@@ -1,0 +1,14 @@
+**/*.lock
+**/*.json
+**/*.css
+**/*.ico
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.md
+**/*.woff2
+/.husky
+.prettierignore
+dev.Dockerfile
+docker-compose.yml
+public/site.webmanifest

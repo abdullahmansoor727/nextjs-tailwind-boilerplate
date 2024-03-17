@@ -1,3 +1,40 @@
+# NextJS + Tailwind Boilerplate
+
+### Packages installed
+
+1. tailwindcss
+2. tailwindcss-animate (plugin that adds basic animation classes)
+3. eslint
+4. prettier
+5. husky (for running commands on git hooks such as pre-commit, pre-push)
+6. lint-staged (to run the pre-commit command)
+7. cal-sans (the default font for headings)
+
+### Package Manager
+
+- yarn v4
+
+### Theme
+
+Default theme set to dark - Check the html tag in `@/src/app/layout.tsx`, if the className is dark, dark mode css variables are used
+
+CSS variables are to be set it `@/src/app/global.css`
+
+The following variables have been set by default for both `light` and `dark` mode
+
+1. `foreground`
+2. `background`
+
+### Typography
+
+Default font for heading is `Cal Sans` installed as a package
+
+Default font for body text is `Plus Jakarta Sans`, importing from Google Fonts using `next/font/google`
+
+=================================================================
+
+## NextJS Readme
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
